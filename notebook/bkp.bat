@@ -16,6 +16,7 @@ REM "C:\Program Files\Firebird\Firebird_2_5\bin\gbak.exe" -c -user SYSDBA -passw
 		
 		echo f | xcopy /y F:\Sistema\BATERIAS.zip C:\Users\vlmbl\Dropbox\Baterias\Baterias.zip
 		echo f | xcopy /y F:\Sistema\BATERIAS.fbk C:\Users\vlmbl\Dropbox\Baterias\Baterias.fbk	
+		echo f | xcopy /y F:\Sistema\BATERIAS.FDB C:\Users\vlmbl\Dropbox\Baterias\Baterias.FDB	
 		
 		C:\ProgramData\Anaconda3\python.exe C:\MyGit\py_backup\notebook\file_bkp.py				
 
