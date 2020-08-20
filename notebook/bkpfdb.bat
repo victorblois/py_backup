@@ -15,6 +15,8 @@ REM "C:\Program Files\Firebird\Firebird_2_5\bin\gbak.exe" -c -user SYSDBA -passw
 		"C:\Program Files\7-Zip\7z.exe" a -tzip F:\Sistema\BATERIAS.zip F:\Sistema\BATERIAS.fbk
 		echo f | xcopy /y F:\Sistema\BATERIAS.zip C:\Users\vlmbl\Dropbox\Baterias\Baterias.zip
 		echo f | xcopy /y F:\Sistema\BATERIAS.fbk C:\Users\vlmbl\Dropbox\Baterias\Baterias.fbk
+		echo f | xcopy /y F:\Sistema\BATERIAS.FDB C:\Users\vlmbl\Dropbox\Baterias\Baterias.FDB
+		
 		
 		echo msgbox "Backup feito com sucesso!" > %tmp%\tmp.vbs
 		wscript %tmp%\tmp.vbs
